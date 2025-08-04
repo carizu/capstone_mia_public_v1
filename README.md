@@ -13,13 +13,13 @@ Este repositorio contiene un conjunto de notebooks para el análisis, procesamie
 3. [Preprocesamiento, Clasifica Normativas](notebooks/03_Preprocesamiento_EDA_Clasifica_Normativas.ipynb)  
    Preprocesamiento de los datos y análisis exploratorio para la clasificación de normativas. Se preparan los datos para su posterior modelado.
 
-4. [Preprocesamiento_Embbedings_Redis.ipynb](notebooks/04_Preprocesamiento_Embbedings_Redis.ipynb)  
+4. [Preprocesamiento Embbedings_Redis](notebooks/04_Preprocesamiento_Embbedings_Redis.ipynb)  
    Generación de embeddings para los textos de las normativas y su almacenamiento en Redis para facilitar búsquedas y consultas eficientes.
 
 5. [Agente Vigilante](notebooks/Agente_Vigilante/Modelado_AgenteVigilante.ipynb)  
   El primer agente “Vigilante” tendrá el objetivo de determinar si un documento (resolución/circular) es relevante para el negocio 
 
-6. [Agente Prescriptor](notebooks/Agente_Prescriptor/Modelado_01 EDA_Agente_Prescriptor.ipynb)
+6. [Agente Prescriptor](notebooks/Agente_Prescriptor/01_EDA_Agente_Prescriptor.ipynb)
    Este agente RAG prescribe el impacto de normativas del SII sobre procesos internos de una fintech. Combina embeddings semánticos con contexto estructurado desde matrices de procesos e impactos históricos. Como salida, genera responsables, efectos esperados, niveles de riesgo y recomendaciones.
    
 ## Modelo de Agentes
