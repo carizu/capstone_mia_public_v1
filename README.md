@@ -17,7 +17,15 @@ Este repositorio contiene un conjunto de notebooks para el análisis, procesamie
    Generación de embeddings para los textos de las normativas y su almacenamiento en Redis para facilitar búsquedas y consultas eficientes.
 
 5. [Agente Vigilante](notebooks/Agente_Vigilante/Modelado_AgenteVigilante.ipynb)  
-   Implementación y evaluación de modelos para la clasificación automática de nuevas normativas.
+  El primer agente “Vigilante” tendrá el objetivo de determinar si un documento (resolución/circular) es relevante para el negocio 
+
+6. [Agente Prescriptor](notebooks/Agente_Prescriptor/Modelado_01 EDA_Agente_Prescriptor.ipynb)
+   Este agente RAG prescribe el impacto de normativas del SII sobre procesos internos de una fintech. Combina embeddings semánticos con contexto estructurado desde matrices de procesos e impactos históricos. Como salida, genera responsables, efectos esperados, niveles de riesgo y recomendaciones.
+   
+## Modelo de Agentes
+
+![Modelo Agentes](img/Modelo.png)
+
 
 ## Estructura de Carpetas
 
